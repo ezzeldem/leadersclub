@@ -775,9 +775,10 @@ html[dir="rtl"] body {
     width: 24px;
   }
 
-  .nav-section .nav-box {
-    justify-content: center;
+  .order-md {
+    order: -1;
   }
+
   .nav-section .nav-box .search-pop-up form .form-group input {
     width: unset;
   }

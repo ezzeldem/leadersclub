@@ -925,9 +925,11 @@ body {
       }
     }
   }
+  .order-md{
+    order: -1;
+  }
   .nav-section{
      .nav-box{
-      justify-content: center;
       .search-pop-up{
          form{
             .form-group{
