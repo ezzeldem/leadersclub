@@ -703,7 +703,7 @@ html[dir="rtl"] body {
   }
 
   .partnership-section .partnership-box img {
-    flex-basis: 45%;
+    flex-basis: 36%;
   }
 
   .glance-section .glance-box .prag {
@@ -780,5 +780,10 @@ html[dir="rtl"] body {
   }
   .nav-section .nav-box .search-pop-up form .form-group input {
     width: unset;
+  }
+}
+@media (max-width: 400px) {
+  .partnership-section .partnership-box img {
+    flex-basis: 30%;
   }
 }

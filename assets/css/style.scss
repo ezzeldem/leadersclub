@@ -833,7 +833,7 @@ body {
   .partnership-section {
     .partnership-box {
       img {
-        flex-basis: 45%;
+        flex-basis: 36%;
       }
     }
   }
@@ -940,4 +940,16 @@ body {
     }
      
     } 
+}
+
+
+@media (max-width: 400px) {
+  
+  .partnership-section {
+    .partnership-box {
+      img {
+        flex-basis: 30%;
+      }
+    }
+  }
 }
